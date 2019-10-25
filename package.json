@@ -1,0 +1,28 @@
+{
+  "name": "wechat_mp_puppy",
+  "version": "1.0.0",
+  "description": "通过puppeteer实现微信订阅号消息自动中转。帮助订阅号管理者随时和粉丝互动！",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rockswang/wechat_mp_puppy.git"
+  },
+  "keywords": [
+    "puppeteer",
+    "chrome",
+    "wechat"
+  ],
+  "author": "Rocks Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rockswang/wechat_mp_puppy/issues"
+  },
+  "homepage": "https://github.com/rockswang/wechat_mp_puppy#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "puppeteer": "^2.0.0"
+  }
+}
